@@ -39,7 +39,7 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(3,0) RC(6,0) RC(6,1) RC(6,2) 
             , <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
-            , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+            , <&pro_micro 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             ;
     };
 
@@ -63,5 +63,6 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(3,0) RC(6,0) RC(6,1) RC(6,2) 
         label = "VBATT";
     };
 };
+
 
 
