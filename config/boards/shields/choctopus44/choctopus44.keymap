@@ -42,7 +42,7 @@
     raise_layer {
       bindings = <
         &trans      &trans            &trans                &kp UP                &trans      &trans                    &trans                &trans            &trans      &trans      &trans          &trans
-        &trans      &trans            &kp LEFT              &kp DOWN              &kp RIGHT   &trans                    &kp h                 &kp j             &kp k       &kp l       &trans          &trans
+        &trans      &trans            &kp LEFT              &kp DOWN              &kp RIGHT   &trans                    &kp H                 &kp J             &kp K       &kp L       &trans          &trans
         &trans      &trans            &trans                &trans                &trans      &trans       &kp C_MUTE   &trans                &trans            &trans      &trans      &trans          &trans
                                       &trans                &trans                &mo 3       &trans                    &trans                &trans            &trans      &trans
       >;
